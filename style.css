@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.nav-logo {
+    display: flex;
+    color: black;
+    font-size: 1.1rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.bxs-cloud {
+    font-size: 1.4rem;
+    padding-right: .5rem;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: transparent;
+    margin: 1.5rem 4rem;
+    justify-content: space-between;
+}
+
+.nav-list,
+.nav-links {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    padding: 2rem;
+    color: lightgray;
+    color: lightgray;
+    align-self: center;
+    justify-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.get-started {
+    display: flex;
+    color: white;
+    font-weight: 500;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.bx-up-arrow-alt {
+    padding-left: .3rem;
+    font-size: 1.2rem;
+    transform: translateY(-1px) rotateZ(45deg);
+}
+
+.home {
+    display: flex;
+    height: 750px;
+    height: 750px;
+}
+
+.right-section {
+    flex: 1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #fff;
+}
+
+.left-section-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 4.5rem;
+    padding: 10rem 4.5rem;
+}
+
+.right-section-img {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.subtitle {
+    width: 213px;
+    font-size: 1.1rem;
+    margin-bottom: .8rem;
+    margin-bottom: .8rem;
+    padding: 7px 11px;
+    border-radius: 6px;
+    color: #444AFE;
+    background-color: #F2F2FF;
+}
+
+.title {
+    font-size: 3.8rem;
+    font-size: 3.8rem;
+    margin-bottom: 1.5rem;
+    width: 430px;
+}
+
+.title-description {
+    color: grey;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.title-buttons {
+    display: flex;
+    gap: .8rem;
+
+}
+
+.left-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 1rem 1.5rem;
+    background-color: #5056FD;
+    transition: .3s;
+
+
+    &:hover {
+        scale: 1.02;
+    }
+}
+
+.left-arrow {
+    padding-left: .1rem;
+}
+
+.right-button {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    transition: .3s;
+
+
+    &:hover {
+        scale: 1.02;
+    }
+}
+
+.scroll-down>a {
+    display: flex;
+    color: orangered;
+    text-decoration: none;
+    position: absolute;
+    margin: 3rem 4rem;
+    bottom: 0;
+    left: 0;
+    font-size: .9rem;
+    align-items: center;
+}
+
+.bx-chevron-down {
+    font-size: 1.2rem;
+    transition: .3s;
+
+    &:hover {
+        transform: translateY(2px);
+    }
+}
+
+/* features */
+
+.features {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: .1rem;
+    padding: 6rem 4rem;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.features>h1 {
+    color: white;
+    line-height: 3.8rem;
+    text-align: center;
+    width: 650px;
+    font-size: 3.6rem;
+    margin-bottom: 2.8rem;
+}
+
+.feature-span {
+    color: grey;
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(2, 460px);
+    gap: 1.5rem;
+}
+
+.f-container-one>img,
+.f-container-two>img,
+.f-container-three>img {
+    width: 350px;
+}
+
+.f-container-one,
+.f-container-two,
+.f-container-three {
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    transition: .4s;
+    background-color: #0D0D0D;
+
+    &:hover {
+        border: 1px solid rgb(42, 42, 42);
+    }
+}
+
+.f-container-two {
+    background-color: #5056FD;
+}
+
+.f-container-one:nth-child(1) {
+    grid-column: span 2;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-container-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: round;
+    justify-content: space-between;
+}
+
+.right-side>h1 {
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+    width: 400px;
+}
+
+.right-side>p {
+    width: 390px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.right-side>a {
+    color: white;
+    width: 130px;
+    border-radius: 30px;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    background-color: #1C1C1C;
+}
+
+.f-container-one>img {
+    width: 342px;
+}
+
+.f-container-two {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.f-container-two>h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.f-container-two>p {
+    width: 390px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.f-container-two>a {
+    color: white;
+    width: 162px;
+    border-radius: 30px;
+    padding: 1rem 1.4rem;
+    text-decoration: none;
+    background-color: #676CFD;
+}
+
+.f-container-two>img {
+    width: 400px;
+    align-self: center;
+    margin-bottom: 2.4rem;
+    filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, .3));
+}
+
+.f-container-three {
+    display: flex;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.f-container-three>h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.f-container-three>p {
+    width: 300px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.f-container-three>a {
+    color: white;
+    width: 131px;
+    border-radius: 30px;
+    padding: 1rem 1.4rem;
+    text-decoration: none;
+    background-color: #1C1C1C;
+}
+
+.f-container-three>img {
+    align-self: center;
+    width: 280px;
+}
+
+
+.scroll-down-features>a {
+    color: orangered;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 2.5rem;
+    left: 0;
+    font-size: .9rem;
+    align-items: center;
+}
+
+
+
+/* forum */
+
+.forum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 8rem;
+    justify-content: center;
+}
+
+.forum>h1 {
+    line-height: 3.8rem;
+    text-align: center;
+    width: 650px;
+    font-size: 3.6rem;
+    margin-bottom: 2.8rem;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.4rem;
+    flex-direction: row;
+    gap: .7rem;
+}
+
+
+.switch input {
+    position: absolute;
+    opacity: 0;
+}
+
+
+.switch {
+    display: inline-block;
+    font-size: 20px;
+    height: 1em;
+    width: 2em;
+    background: #4349FD;
+    border-radius: 1em;
+}
+
+.switch div {
+    align-items: center;
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background: #FFF;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.switch input:checked+div {
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.card-one,
+.card-two,
+.card-three {
+    flex: 1;
+    height: 417px;
+    width: 300px;
+    padding: 1.4rem 1.4rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-one>div,
+.card-two>div,
+.card-three>div {
+    flex: 1;
+}
+
+.sub-head {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sub-points {
+    font-size: .9rem;
+    margin-bottom: .4rem;
+    line-height: 1.4rem;
+}
+
+.card-one {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: black;
+    background-color: #F5F5F7;
+}
+
+.bx-check {
+    margin-right: .4rem;
+}
+
+.card-one>div>h1 {
+    font-size: 2rem;
+    margin-bottom: .7rem;
+}
+
+.card-one>div>p {
+    color: #000;
+}
+
+.card-one>div>a {
+    color: #000;
+    border-radius: 30px;
+    padding: 1rem 1.4rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    background-color: #E2E2E2;
+}
+
+.card-two {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: #4349FD;
+    background-color: #e7efff;
+}
+
+.card-two>div>h1 {
+    font-size: 2rem;
+    margin-bottom: .7rem;
+}
+
+
+.card-two>div>a {
+    color: white;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding: 1rem 1.4rem;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #4349FD;
+}
+
+.card-three {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: white;
+    background-color: #5056FD;
+}
+
+.price {
+    margin-top: 4rem;
+    margin-bottom: .2rem;
+}
+
+.card-three>div>h1 {
+    font-size: 2rem;
+    margin-bottom: .7rem;
+}
+
+.card-three>div>a {
+    color: #5056FD;
+    border-radius: 30px;
+    padding: 1rem 1.4rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    gap: 2rem;
+    height: 550px;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6rem 4rem 4rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+}
+
+.footer>h1 {
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer>a {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    width: 161px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 1rem 1.5rem;
+    transition: .3s;
+    background-color: #5056FD;
+
+    &:hover {
+        scale: 1.02;
+    }
+}
+
+.footer>a {
+    text-decoration: none;
+}
+
+.scroll-up>a {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    color: orangered;
+    text-decoration: none;
+    position: absolute;
+    margin: 4rem 4rem;
+    left: 0;
+    font-size: .9rem;
+    align-items: center;
+}
+
+.bx-chevron-up {
+    font-size: 1.2rem;
+    transition: .3s;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+}
+
+.footer-nav {
+    display: flex;
+    border-top: 1px solid #252525;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: round;
+}
+
+.footer-logo {
+    color: #fff;
+}
+
+.footer-cloud {
+    padding: 4px;
+    border-radius: 20px;
+    margin-right: .5rem;
+    color: white;
+    background: #252525;
+}
+
+.credits {
+    font-weight: 200;
+    font-size: .8rem;
+    color: #fff;
+}
